@@ -33,10 +33,11 @@ main{
 }
 .box{
     display: inline-block;
-    height: 300px;
-    width: 200px;
+    height: auto;
+    width: auto;
     background-color: rgb(208, 195, 219);
-    margin: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 h2{
     padding: 10px;
@@ -52,7 +53,7 @@ img>.photo{
     padding: 10px 5px;
 }
 footer{
-    background-color: brown;
+    background-color: rgb(208, 195, 219);
     padding: 30px;
     font-size: 20px;
     
